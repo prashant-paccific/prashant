@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: white; /* Change the text color to white for better visibility */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 10px;
+}
+
+.button-container {
+  background-color: gray;
+  width: 100%;
+}
